@@ -28,7 +28,7 @@ namespace Discord_Chat_Bot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "ODgyMjU2MTgxNDE3MDk5MjY1.YS4vGQ.dRL6HClKZQ9SaDGznkw6_yIbBQg";
+            string token = "(bot token)";
 
             _client.Log += _client_log;
             await RegisterCommandsAsync();
